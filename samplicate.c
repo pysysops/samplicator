@@ -37,7 +37,7 @@
 #include "rawsend.h"
 #include "inet.h"
 
-#define PDU_SIZE 1500
+#define PDU_SIZE 1522
 
 static int send_pdu_to_receiver (struct receiver *, const void *, size_t,
 				 struct sockaddr *);
